@@ -7,7 +7,7 @@ const AppProps = () => {
         <View> 
             <AppHeader/>
             <AppContent/>
-            <AppFooter footerContent="footer content"/>
+            <AppFooter NIM="1103194042"/>
         </View> 
         ) }
 export default AppProps;

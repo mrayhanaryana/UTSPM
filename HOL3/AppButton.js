@@ -4,7 +4,7 @@ import { Text, View, Image, Button } from 'react-native';
 const AppButton = () => {
     return (
     <View>
-        <Text>App Button </Text>
+        <Text>INI CONTOH BUTTON </Text>
         <Button title="SENTUH AKU MAS!"/>
     </View>
     ) 

@@ -4,8 +4,8 @@ import { Text, View, Image, StyleSheet, ScrollView } from 'react-native';
 const AppJustifyContent = () => {
     return ( 
         <View style={{flex:1, flexDirection:'column'}}> 
-            <View style={{ height:75, backgroundColor: 'powderblue' }} />
-            <ScrollView style={{ flex: 1, backgroundColor: 'white' }}> 
+            <View style={{ height:75, backgroundColor: 'mediumvioletred' }} />
+            <ScrollView style={{ flex: 1, backgroundColor: 'transparent' }}> 
                 <Text style={[styles.subTitle]}>flex-start</Text> 
                 <View style={[styles.countainer, {justifyContent:'flex-start'}]}> 
                     <View style={[styles.box, { backgroundColor: "powderblue" }]} />
@@ -42,13 +42,13 @@ const AppJustifyContent = () => {
             </View>
 
             <Text style={[styles.subTitle]}>space-evenly</Text> 
-    <       View style={[styles.countainer, {justifyContent:'space-evenly'}]}> 
+            <View style={[styles.countainer, {justifyContent:'space-evenly'}]}> 
                 <View style={[styles.box, { backgroundColor: "powderblue" }]} />
                 <View style={[styles.box, { backgroundColor: "skyblue" }]} />
                 <View style={[styles.box, { backgroundColor: "steelblue" }]} />
             </View>
         </ScrollView> 
-        <View style={{ height:75, backgroundColor: 'steelblue' }} />
+        <View style={{ height:75, backgroundColor: 'mediumvioletred' }} />
     </View>
     );
 }
